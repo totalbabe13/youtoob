@@ -50,37 +50,88 @@ border-spacing: 0;
  /* header and navigation */
 
 header {
+  display: grid;
+  grid-template-columns: 17% 58% 25%;
   border: 1px solid red;
   height: 56px;
 }
-
+.logo {
+    border: 1px solid #ffa800;
+}
 #menuicon {
-  display: inline;
-  height: 24px;
-  width: 24px;
-  padding: 16px;
+ display: inline;
+ height: 24px;
+ width: 24px;
+ padding: 16px;
 }
+
+
 #youtooblogo {
-  display: inline;
-  height: 45px;
-  padding: 5px;
+ display: inline;
+ height: 45px;
+ padding: 5px;
 }
-.search-box {
-    width: 706px;
-    margin-left: 52px;
-    margin-right: 52px;
-    display: inline;
-    position: absolute;
-    padding: 11px;
+
+.search {
     border: 1px solid #ffa800;
 }
 
-#search {
-  width: 564px;
-  height: 26px;
+#search-input {
+    border: 1px solid silver;
+    border-radius: 2px;
+    margin-top: 12px;
+    margin-left: 69px;
+    padding-left: 15px;
+    width: 564px;
+    height: 26px;
+    box-shadow: inset 0 0 1px #000000;
+}
+.search-container {
+    display: grid;
+    grid-template-columns: 88% 9%;
 }
 
-.search-icon-box {
+.search-button {
+    background: #f2f2f2;
+    border-radius: 3px;
+    margin-top: 11px;
+    height: 28px;
+    border: 1px solid #d5d4d4;
+}
+
+#search-icon {
+    margin-left: 11px;
+    width: 26px;
+    height: 26px;
+}
+.nav{
+    border: 1px solid #ffa800;
+    display: grid;
+    grid-template-columns: 19% 19% 19% 19% 23%
+}
+
+#add-button {
+    height: 25px;
+    border: 1px solid blue;
+    margin: 14px;
+}
+
+#app-button {
+  height: 30px;
+  margin: 11px;
+
+}
+
+#message-button {
+  height: 28px;
+  margin: 11px;
+}
+
+
+
+
+
+/*.search-icon-box {
   height: 29px;
   width: 65px;
   display: inline;
@@ -88,8 +139,4 @@ header {
   border: 1px solid green;
 }
 
-#search-icon {
-  width: 26px;
-  height: 26px;
-
-}
+ */
